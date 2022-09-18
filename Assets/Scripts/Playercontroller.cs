@@ -59,6 +59,7 @@ public class Playercontroller : MonoBehaviour
             winText.text = "GameOver!";
             winTextObject.SetActive(true);
             speed = 0;
+        }
     }
 
     void FixedUpdate()
